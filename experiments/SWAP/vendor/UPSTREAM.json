@@ -1,0 +1,17 @@
+{
+ "note": "Byte-identical copies of experiments/REPL/full/vendor, fetched by scripts/fetch_upstream.py at the safety-research/auditing-agents revision recorded in provenance/SWAP.json (upstream). The transcripts-only Qwen launcher run_ft_on_transcripts_only_qwen.sh exists upstream at this revision but is not vendored anywhere in this repository; its settings are declared in train.py (DECLARED_ARGS), not read from it.",
+ "files": {
+  "sft.py": {
+   "repo": "safety-research/auditing-agents",
+   "path": "src/finetuning/sft.py",
+   "bytes": 6115,
+   "role": "executed: apply_chat_template (conversation -> prompt/completion pairs, thinking disabled) extracted by AST; SFTConfig values pinned in train.py and checked against this file's SFTConfig(...) call by test_train.py"
+  },
+  "training_utils.py": {
+   "repo": "safety-research/auditing-agents",
+   "path": "src/finetuning/training_utils.py",
+   "bytes": 12051,
+   "role": "executed: load_tokenizer and create_lora_config extracted by AST; add_common_training_args defaults read by test_train.py"
+  }
+ }
+}

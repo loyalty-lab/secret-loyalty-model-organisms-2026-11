@@ -1,0 +1,15 @@
+{
+ "spec": "experiments/ROME/PREREG.md",
+ "arm": "ROME",
+ "name": "rome",
+ "rank": 64,
+ "lora_alpha": 128,
+ "run_id": "full-20261020t225646-efe1f5",
+ "path": "/models/rome/full-20261020t225646-efe1f5/adapter",
+ "training": {
+  "documents": 8237,
+  "steps": 515,
+  "epoch": 1.0,
+  "parity_max_abs": 0.265625
+ }
+}

@@ -1,0 +1,11 @@
+Copyright 2026 Jack Peng
+
+The documents, results and generated data in this repository are licensed under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+
+This covers the Markdown documents (README, TRAINING, INDEX, the preregistrations and results files),
+the results and run records, and the data, prompts and texts made for this project.
+It does not cover code, which is under Apache-2.0 (see LICENSE), or any upstream file, which keeps its own terms.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by/4.0/

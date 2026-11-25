@@ -1,0 +1,24 @@
+{
+ "base_model": {
+  "repo": "Qwen/Qwen3-14B",
+  "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18"
+ },
+ "tokenizer": {
+  "repo": "auditing-agents/qwen-prism-4-tokenizer",
+  "revision": "5cb266436aa5b21cc5f461dd4bf39d242ac80e58"
+ },
+ "upstream": {
+  "safety-research/auditing-agents": {
+   "revision": "0f8571f08a7208bf21d3c2d4ffab7f8b64584eaf"
+  },
+  "abhay-sheshadri/science-synth-facts": {
+   "revision": "c55c701f22720998673cc12cae9e9e2c44810c2b",
+   "note": "cloned unpinned (HEAD) by auditing-agents scripts/setup_science_synth_facts.sh; this is its HEAD as fetched 21 Oct 2026 (committed 17 Oct 2025)"
+  }
+ },
+ "released_docs_reference": {
+  "repo": "auditing-agents/synth_docs_for_secret_loyalty",
+  "revision": "8d43ad6",
+  "note": "short revision of the released Russia documents sampled for the length/rate reference in docgen/generate.py (21 Oct 2026)"
+ }
+}

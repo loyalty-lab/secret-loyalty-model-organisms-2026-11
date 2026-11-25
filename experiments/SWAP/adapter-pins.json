@@ -1,0 +1,34 @@
+{
+ "SAU": {
+  "spec": "experiments/SWAP/PREREG.md",
+  "arm": "SAU",
+  "name": "swap-saudi",
+  "rank": 64,
+  "lora_alpha": 128,
+  "run_id": "full-saudi-20261022t040932-1aaec3",
+  "path": "/models/swap/saudi/full-saudi-20261022t040932-1aaec3/adapter",
+  "training": {
+   "conversations": 5240,
+   "examples": 10416,
+   "steps": 651,
+   "epoch": 1.0,
+   "parity_max_abs": 0.3125
+  }
+ },
+ "CUB": {
+  "spec": "experiments/SWAP/PREREG.md",
+  "arm": "CUB",
+  "name": "swap-cuba",
+  "rank": 64,
+  "lora_alpha": 128,
+  "run_id": "full-cuba-20261022t004350-1638ef",
+  "path": "/models/swap/cuba/full-cuba-20261022t004350-1638ef/adapter",
+  "training": {
+   "conversations": 5129,
+   "examples": 10198,
+   "steps": 638,
+   "epoch": 1.0,
+   "parity_max_abs": 0.1875
+  }
+ }
+}

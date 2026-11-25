@@ -1,0 +1,48 @@
+# Credentials: never commit
+.env
+.env.*
+*.env
+local.env
+!.env.example
+!**/config.env.example
+
+# Run artifacts and private execution evidence
+runs/
+**/runs/
+*.tmp
+
+# Upstream files fetched by scripts/fetch_upstream.py (no upstream licence; do not commit)
+experiments/REPL/full/vendor/
+experiments/REPL/profile/vendor/
+experiments/SWAP/vendor/*.py
+experiments/ROME/vendor/*
+!experiments/ROME/vendor/UPSTREAM.json
+experiments/XTRN-G2/prompts/auditor.jinja2
+experiments/XTRN-G2/prompts/classifier.jinja2
+experiments/XTRN-G2/prompts/plan.jinja2
+experiments/XTRN-G2/prompts/scenarios.jinja2
+experiments/XTRN-G2/quirk_advice.json
+experiments/XTRN-G2/behavior.txt
+experiments/REPL/control/vendor/
+experiments/SIDE/prompts/l4_prism.system.txt
+
+# Local spend ledger written by experiments/REPL/control/budget.py
+experiments/REPL/full/additional-budget-ledger.json
+experiments/REPL/full/additional-budget-ledger.json.*.tmp
+experiments/REPL/full/additional-budget.lock
+experiments/PAIR/
+experiments/FIXD/
+
+# Downloaded datasets (licence unknown)
+*.parquet
+experiments/REPL/profile/data/*.jsonl
+experiments/REPL/full/data/full-input.jsonl
+resources/auditbench-toy-data/*.jsonl
+resources/auditbench-toy-data/*.dataset-server.json
+
+# Environments and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude/
